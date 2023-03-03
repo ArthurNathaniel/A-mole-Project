@@ -89,20 +89,24 @@ body {
 .text h1 span {
     color: #00bac9;
 }
-.ft{
+
+.ft {
     margin-top: 30px;
 }
-.ft li a{
+
+.ft li a {
     line-height: 40px;
     text-decoration: none;
     color: #fff;
 }
-.ft li a:hover{
+
+.ft li a:hover {
     color: #00bac9;
 }
-.hd h5{
+
+.hd h5 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 30px; 
+    font-size: 30px;
     color: #00bac9;
     /* border-bottom: 4px solid #fff; */
 }
@@ -162,7 +166,7 @@ body {
     align-self: center;
 }
 
-.support{
+.support {
     margin-bottom: 50px;
 }
 
@@ -183,36 +187,18 @@ body {
     align-items: center;
 }
 
-.padding-{
+.padding- {
     padding-block: 25px;
     margin-bottom: 50px;
 }
-.hd span{
+
+.hd span {
     color: #fff;
 }
 
-.flip-container {
-    perspective: 1000px;
-}
-.flip-container:hover .flipper,
-.flip-container.hover .flipper {
-    transform: rotateY(180deg);
-}
-.flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-.front,
-.back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.front {
-    z-index: 2;
-}
-.back {
-    transform: rotateY(180deg);
-}
+
+/* @media only screen and (max-width: 990px) {
+    .overflow-hidden{
+       overflow-x: auto;
+    }
+} */
